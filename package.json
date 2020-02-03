@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "prepare": "snowpack"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "preact",
+      "preact/hooks",
+      "preact-router"
+    ]
+  },
+  "dependencies": {
+    "preact": "^10.2.1",
+    "preact-router": "^3.2.1"
+  },
+  "devDependencies": {
+    "snowpack": "^1.1.2"
+  }
+}
